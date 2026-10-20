@@ -19,7 +19,7 @@ public final class Worker {
     private Worker() {
     }
 
-    static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         if (args.length != 6) {
             System.err.println("usage: Worker <config> <sosd-data-dir> <run> <row> <result> <predictions>");
             System.exit(2);

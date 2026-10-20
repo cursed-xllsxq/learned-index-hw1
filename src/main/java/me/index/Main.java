@@ -21,7 +21,7 @@ public class Main {
     private static final Plot.Color[] PALETTE = {
             Plot.RED, Plot.GREEN, Plot.ORANGE, Plot.PURPLE, Plot.BROWN, Plot.GRAY};
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         try {
             run(CONFIG_FILE, dataDir(args));
         } catch (IOException | IllegalArgumentException | IllegalStateException e) {
